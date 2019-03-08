@@ -16,6 +16,7 @@ Presented @ Commit Klaipėda (2019-03-07)
 - install npm package by your DB System ([pg](https://github.com/brianc/node-postgres) for PostgreSQL and Amazon Redshift,
 [mysql](https://github.com/mysqljs/mysql) for MySQL or MariaDB, [sqlite3](https://github.com/mapbox/node-sqlite3) for SQLite3,
 or [mssql](https://github.com/tediousjs/node-mssql) for MSSQL.
-- run `knex migrate:latest` and `knex seed:run`
+- install knex globally to be able to run migrations and seeds: `npm install knex -g`
+- run migrations `knex migrate:latest` and seeds `knex seed:run`
 - run `npm run dev`
 - open [http://localhost:1337](http://localhost:1337) in your browser
