@@ -11,7 +11,7 @@ Presented @ Commit Klaipėda (2019-03-07)
 
 - clone/fork/download repository
 - run `npm install`
-- create DB table
+- create DB
 - copy `.env.example` to `.env` and edit config by you environment
 - install npm package by your DB System ([pg](https://github.com/brianc/node-postgres) for PostgreSQL and Amazon Redshift,
 [mysql](https://github.com/mysqljs/mysql) for MySQL or MariaDB, [sqlite3](https://github.com/mapbox/node-sqlite3) for SQLite3,
